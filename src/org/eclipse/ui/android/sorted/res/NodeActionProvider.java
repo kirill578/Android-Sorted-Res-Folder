@@ -42,7 +42,6 @@ public class NodeActionProvider extends CommonActionProvider {
 	public void init(ICommonActionExtensionSite aSite) {
 		final ICommonViewerWorkbenchSite workbenchSite =  (ICommonViewerWorkbenchSite) aSite.getViewSite();
 	    IDoubleClickListener doubleclick = new IDoubleClickListener() {
-	        @Override
 	        public void doubleClick(DoubleClickEvent event) {
 	        	ISelection selection = workbenchSite.getSelectionProvider().getSelection();
 	        	if(!selection.isEmpty()) {

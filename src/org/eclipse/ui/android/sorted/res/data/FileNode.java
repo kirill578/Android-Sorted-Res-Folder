@@ -60,9 +60,7 @@ public class FileNode extends AbstractNode implements IAdaptable {
 	}
 
 
-	@Override
-	@SuppressWarnings("rawtypes")
-	public Object getAdapter(Class adapter) {
+	public Object getAdapter(@SuppressWarnings("rawtypes") Class adapter) {
 		if (hasChildren())
 			return file.getAdapter(adapter);
 		return null;

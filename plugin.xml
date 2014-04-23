@@ -2,7 +2,6 @@
 <?eclipse version="3.0"?>
 <plugin>
 
-  <!-- Declare a content extension that renders the contents of a properties file -->
   <extension 
          point="org.eclipse.ui.navigator.navigatorContent">
          
@@ -32,8 +31,6 @@
       </navigatorContent>
    </extension>
    
-   
-   <!-- Bind the Properties content extension to the viewer -->
    <extension
          point="org.eclipse.ui.navigator.viewer">
       <viewerContentBinding viewerId="org.eclipse.ui.navigator.ProjectExplorer">
@@ -42,5 +39,5 @@
          </includes>
       </viewerContentBinding>
    </extension>
-  
+   
 </plugin>
