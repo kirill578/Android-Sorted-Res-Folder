@@ -7,6 +7,15 @@ this plugin adds a 'res-sorted' folder along side the regular 'res' folder. this
 * you create a virtual folder by breaking a name of a file with two underscores
 * the same resource but with diffrent localization (locale,pixel density...) will be folder as the last node of the tree
 
+Installation:
+=========================
+
+install the plugin form the following url:
+
+    https://github.com/kirill578/Android-Sorted-Res-Folder/raw/master/eclipse_update_site/
+    
+( help -> install new software -> paste the link )
+
 Example:
 =========================
 
