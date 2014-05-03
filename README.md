@@ -10,11 +10,13 @@ this plugin adds a 'res-sorted' folder along side the regular 'res' folder. this
 Installation:
 =========================
 
-install the plugin form the following url:
+1. install the plugin form the following url: ( help -> install new software -> paste the link )
 
     https://github.com/kirill578/Android-Sorted-Res-Folder/raw/master/eclipse_update_site/
     
-( help -> install new software -> paste the link )
+2. Use the `Project Explorer` , `package explorer` is not supported yet
+
+![project_explorer](project_explorer.png)
 
 Example:
 =========================
