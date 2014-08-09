@@ -21,7 +21,7 @@ public class ResourcesNode extends AbstractNode {
 	/**
 	 *  used by the method bellow
 	 */
-	public static final String[] android_resources_folder = {"anim", "drawable", "color", "layout", "menu", "values"}; //$NON-NLS-1$//$NON-NLS-2$//$NON-NLS-3$//$NON-NLS-4$//$NON-NLS-5$//$NON-NLS-6$
+	public static final String[] android_resources_folder = {"anim", "drawable", "color", "layout", "menu", "values", "raw"}; //$NON-NLS-1$//$NON-NLS-2$//$NON-NLS-3$//$NON-NLS-4$//$NON-NLS-5$//$NON-NLS-6$//$NON-NLS-7$
 	
 	/**
 	 * @param name
